@@ -56,3 +56,20 @@ h2 {
     background: linear-gradient(90deg, rgb(19, 90, 250) 0%, rgb(0,103, 253) 100%);
     border-radius: 4px;
 }
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.36rem 1.3rem 0 rgb(8, 112, 245, 0.6);
+    transition: transform 150ms;
+    transform: scale(1.04);
+}
+.btn[disabled]:hover {
+cursor: not-allowed;
+box-shadow: none;
+transform: none;
+}
+#highscore-btn {
+    background: linear-gradient(90deg, rgb(250, 247, 10) 0%, rgb(210, 197, 21) 100%);
+}
+#highscore-btn:hover {
+    box-shadow: 0, 0.4rem, 1.4rem 0 rgb(255,255,0,0.5);
+}
