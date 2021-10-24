@@ -1,0 +1,43 @@
+body {
+    color: ;
+}
+.choice-container {
+    display: flex;
+    margin-bottom: .8rem;
+    width: 100%;
+    border-radius: 4px;
+    background: rgb(20, 95, 255);
+    font-size: 3rem;
+    min-width: 80rem;
+}
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(6, 106, 250, 0.6);
+    transform: scale(1.03);
+    transform: transform 100ms;
+}
+.choice-prefix {
+    padding: 2rem 2.4rem;
+    color: white;
+}
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+}
+.correct {
+    background: linear-gradient(32deg, rgb(11, 225, 35) 0%, rgb(41, 235, 110) 100%);
+}
+.incorrect {
+    background: linear-gradient(32deg, rgb(231, 28, 28,1) 0%, rgb(224, 11, 11, 1) 100%);
+}
+/* Heads up display*/
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 40rem;
+    }
+    
+}
