@@ -28,3 +28,31 @@ h2 {
     margin: 0 auto;
     padding: 2em;
 }
+.flex-column{
+    justify-content: center;
+    align-items: center;
+}
+.flex-center {
+    display: flex;
+    flex-direction: column;
+}
+.justify-center {
+    justify-content: center;
+}
+.text-center {
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
+.btn {
+    font-size: 2.4rem;
+    padding: 2rem 0;
+    width: 31rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: rgb(28, 26, 26);
+    background: linear-gradient(90deg, rgb(19, 90, 250) 0%, rgb(0,103, 253) 100%);
+    border-radius: 4px;
+}
