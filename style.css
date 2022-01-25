@@ -73,3 +73,38 @@ transform: none;
 #highscore-btn:hover {
     box-shadow: 0, 0.4rem, 1.4rem 0 rgb(255,255,0,0.5);
 }
+/* end page css */ 
+.end-form-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 30rem;
+  }
+  input {
+    margin-bottom: 1rem;
+    width: 21rem;
+    padding: 1.6rem;
+    font-size: 1.8rem;
+    border: none;
+    box-shadow: o 0.1rem 1.4rem 0 rgb(85, 185, 235, 0.5);
+    
+  }
+  
+  input::placeholder {
+    color: #aaa;
+  }
+  #username {
+    margin-bottom: 3rem;
+    width: 100%;
+    outline: none;
+  
+  }
+  #end-text {
+    font-size: 2.4rem;
+    color: #fff;
+    text-align: center;
+  }
+  #saveScoreBtn {
+      border: none;
+  }
