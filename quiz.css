@@ -1,14 +1,14 @@
 
 body {
-    background-color: white;
+    background-color: rgb(49, 34, 150);
 }
 .choice-container {
     display: flex;
-    margin-bottom: .8rem;
+    margin-bottom: 0.8rem;
     width: 100%;
     border-radius: 4px;
     background: rgb(20, 95, 255);
-    font-size: 1.5rem;
+    font-size: 2rem;
     min-width: 50rem;
 }
 
@@ -19,8 +19,8 @@ body {
     transform: transform 100ms;
 }
 .choice-prefix {
-    padding: 2rem 2.4rem;
-    color: white;
+    padding: 2rem 2.5rem;
+    color:white;
 }
 .choice-text {
     padding: 2rem;
@@ -32,6 +32,7 @@ body {
 .incorrect {
     background: linear-gradient(32deg, rgb(231, 28, 28,1) 0%, rgb(224, 11, 11, 1) 100%);
 }
+/* head's up display */
 #hud {
     display: flex;
     justify-content: space-between;
