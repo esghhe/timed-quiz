@@ -13,4 +13,9 @@ when i run the app it come up with a page it has play and highscores button, to 
 - HTML
 - css
 - JavaScripts
-## Demo  
+## Demo 
+
+## Websites
+
+## License
+MIT
