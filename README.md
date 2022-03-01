@@ -1,21 +1,43 @@
-# Title Timed-quiz 
+# Timed-quiz 
 ## Description 
 this is a timed quize on JavaScript app that stores highscores 
+
+## Installation
+1. Download or clone repository
+2. Open the main page (index.html) on your browser to view webpage
+3. Use a text editor to view all coding, Visual Studio Coding is recommended.
+
 ## Instructions
-when i run the app it come up with a page it has play and highscores button, to start the quiz press play then it takes me to the quiz then, start the quiz then, i presented with series of multiple questions then, 
-- then when the answer is correct will add 25 to the score
-- if the answer is wrong the button turns red it skips to the next question.
-- when all questions are answered it takes me to the end part of the quiz 
-- then i presented with a page that the user can enter his name and save his score to the local storage.
-- then it will show a list of saved high scores
-- Then the user have an option to "Go Home" to start the quiz
+1. Click "Start Quiz"
+   * Timer on the top right will start to run
+   * Total time is 150 second with 12 questions in total
+   * The "View High Scores" link on the top left will direct the user to view all current high scores
+
+
+2. A series of questions are presented with multiple choice answers
+   * If the question is answered wrong, 10 seconds will be deducted to the timer
+   * If the question is answered correctly, will add 1 to the score
+   * After a question is answered, it will show on the bottom whether it is answered correctly or wrong. If wrong, will also show the correct answer.
+  
+3. When all questions are answered or the timer reaches 0, game is over
+   
+4. When game is over, the user can enter initial and score, click "Submit" to save to high scores to local storage
+   
+5. Then it will show a list of saved high scores
+   
+6. The user then will have the option to click on "Go Back" to start quiz again, or "Clear High Scores" to clear saved scores
+
 ## Features used
 - HTML
 - css
 - JavaScripts
+- Bootstrap
+
 ## Demo 
+![Timed Quiz Demo](assets/timed-quiz-demo.gif)
 
 ## Websites
-
+* Github: https://github.com/esghhe/timed-quiz
+* Deployed: https://esghhe.github.io/timed-quiz/
 ## License
 MIT
