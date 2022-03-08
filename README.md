@@ -35,7 +35,7 @@ This is a timed quiz on JavaScript app that stores highscores.
 - Bootstrap
 
 ## Demo 
-![Timed Quiz Demo](assets/images/timed-quiz-demo.gif)
+![Timed Quiz Demo](assets/images/timed-quizdemo.gif)
 
 ## Websites
 * Github: https://github.com/esghhe/timed-quiz
