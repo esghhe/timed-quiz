@@ -1,6 +1,7 @@
-# Timed-quiz 
+# Awesome Timed-quiz 
+
 ## Description 
-this is a timed quize on JavaScript app that stores highscores 
+This is a timed quiz on JavaScript app that stores highscores.
 
 ## Installation
 1. Download or clone repository
@@ -10,7 +11,7 @@ this is a timed quize on JavaScript app that stores highscores
 ## Instructions
 1. Click "Start Quiz"
    * Timer on the top right will start to run
-   * Total time is 150 second with 12 questions in total
+   * Total time is 60 second with five questions in total
    * The "View High Scores" link on the top left will direct the user to view all current high scores
 
 

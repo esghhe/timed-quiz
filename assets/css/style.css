@@ -14,7 +14,7 @@ a {
 }
 
 a:hover {
-    color: #99B8BF;
+    color: royalblue;
     font-family: 'Archivo', sans-serif;
 }
 
@@ -38,7 +38,7 @@ p {
 }
 
 #questionTitle {
-    font-size: 20px;
+    font-size: 24px;
     font-family: 'Montserrat', sans-serif;
 }
 
